@@ -45,8 +45,8 @@ The dataset provides a comprehensive view of the Airbnb landscape, making it a v
 
 
 data.head()
+![Alt text](https://github.com/AFZALSUNSHINE/AirBNB-listing-EDA/blob/main/3-tail%20Screenshot%202024-11-30%20184718.png)
 
-View last few rows of the dataset
 
 data.tail()
 
