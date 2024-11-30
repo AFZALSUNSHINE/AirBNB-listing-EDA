@@ -58,7 +58,7 @@ data.shape
 Get a concise summary of the DataFrame
 
 data.info()
-
+![Alt text](https://github.com/AFZALSUNSHINE/AirBNB-listing-EDA/blob/main/4-data%20info%20-Screenshot%202024-11-30%20185457.png)
 Statistical summary of numeric columns
 
 data.describe()
