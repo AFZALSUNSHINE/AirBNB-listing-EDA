@@ -42,7 +42,7 @@ The dataset provides a comprehensive view of the Airbnb landscape, making it a v
 
 ### Load Data
 
-data=pd.read_csv("datasets.csv")
+![Alt text].(https://github.com/AFZALSUNSHINE/AirBNB-listing-EDA/blob/main/2%20load%20Screenshot%202024-11-30%20171808.png)
 
 data.head()
 
