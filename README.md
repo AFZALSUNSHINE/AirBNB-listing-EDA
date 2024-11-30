@@ -62,13 +62,13 @@ data.info()
 Statistical summary of numeric columns
 
 data.describe()
-
+![Alt text](https://github.com/AFZALSUNSHINE/AirBNB-listing-EDA/blob/main/5-data%20describe%20.png)
 Data Cleaning
 
 Check for missing values
 
 data.isnull().sum()
-
+![Alt text](https://github.com/AFZALSUNSHINE/AirBNB-listing-EDA/blob/main/6-is%20null-Screenshot%202024-11-30%20185649.png)
 Dropping rows with missing values
 
 data.dropna(inplace=True)
@@ -81,7 +81,7 @@ data.drop_duplicates(inplace=True)
 Check data types
 
 data.dtypes
-
+![Alt text](https://github.com/AFZALSUNSHINE/AirBNB-listing-EDA/blob/main/7-data%20type-Screenshot%202024-11-30%20185738.png)
 Type casting
 
 data['id'] = data['id'].astype(object)
