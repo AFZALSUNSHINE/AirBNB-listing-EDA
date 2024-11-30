@@ -37,6 +37,7 @@ The dataset provides a comprehensive view of the Airbnb landscape, making it a v
 ### Importing All Libraries
 
 
+![Alt text](https://github.com/AFZALSUNSHINE/AirBNB-listing-EDA/blob/main/1%20load%20%202024-11-30%20171641.png)
 
 
 ### Load Data
