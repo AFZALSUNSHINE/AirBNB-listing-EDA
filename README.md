@@ -92,15 +92,15 @@ data['host_id'] = data['host_id'].astype(object)
 ## Univariate Analysis
 
 Price Outliers and Distribution
-
+![Alt text](https://github.com/AFZALSUNSHINE/AirBNB-listing-EDA/blob/main/8%20b%20univerity.png)
 
 # Identifying outliers in price
 data = data[data['price'] < 1500]
-
+![Alt text](https://github.com/AFZALSUNSHINE/AirBNB-listing-EDA/blob/main/8%20c%20-univerity%20-Screenshot%202024-11-30%20190454.png)
 # Boxplot for price
 sns.boxplot(data=data, x='price')
 
-
+![Alt text](https://github.com/AFZALSUNSHINE/AirBNB-listing-EDA/blob/main/8%20c%20-univerity%20-Screenshot%202024-11-30%20190454.png)
 # Price distribution histogram
 plt.figure(figsize=(8, 5))
 sns.histplot(data=data, x='price', bins=100)
@@ -121,7 +121,7 @@ plt.show()
 # Feature Engineering
 
 Create new features to gain deeper insights.
-
+![Alt text](https://github.com/AFZALSUNSHINE/AirBNB-listing-EDA/blob/main/9-featuring%20-Screenshot%202024-11-30%20190537.png)
 # Average price per bed
 data['price per bed'] = data['price'] / data['beds']
 data.head()
@@ -129,7 +129,7 @@ data.head()
 # Bivariate Analysis
 
 Price Dependency on Neighborhood
-
+![Alt text](https://github.com/AFZALSUNSHINE/AirBNB-listing-EDA/blob/main/10%20-bivariate%20-Screenshot%202024-11-30%20190623.png)
 
 sns.barplot(data=data, x='neighbourhood_group', y='price', hue='room_type')
 plt.title('Price Dependency on Neighborhood')
